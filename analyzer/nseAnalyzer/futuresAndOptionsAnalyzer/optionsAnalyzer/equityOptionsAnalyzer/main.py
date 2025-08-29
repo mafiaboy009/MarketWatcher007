@@ -9,7 +9,6 @@ from datetime import datetime
 current_working_dir = os.getcwd()
 print(current_working_dir)
 
-
 # Create timestamped folder inside 'data'
 timestamp = datetime.now().strftime("%Y-%m-%d_%H-%M-%S")
 output_dir = os.path.join("../../../../../data", timestamp)
